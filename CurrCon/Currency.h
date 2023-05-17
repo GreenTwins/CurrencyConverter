@@ -320,7 +320,7 @@ namespace CurrCon {
 			}
 		}
 		catch (Exception^ e) {
-			MessageBox::Show("Failed because of: "+e->Message);
+			MessageBox::Show("Failed due to: "+e->Message);
 		}
 		//parse each line FROM file searching for requested FX and rate
 		for (int i = 0; i < searchedCurrencyF->Length; i++) {
